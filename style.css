@@ -31,6 +31,23 @@ body{
     align-items: center;
     width: 90%;
 }
+.nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #252525;
+}
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: min-content;
+    background-color: #2a2a2a;
+}
+.logo{
+    height: 150px;
+}
 .adContainer{
     display: flex;
     justify-content: center;
@@ -38,6 +55,11 @@ body{
     height: 100px;
     width: 100%;
     background-color: #2a2a2a;
+}
+.ad{
+    height: 80px;
+    width: 720px;
+    background-color: #111;
 }
 main{
     display: flex;
